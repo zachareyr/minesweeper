@@ -171,7 +171,7 @@ board = Board()
 def endGame(win): # win param (bool) is whether you won or lost
     global playing
     if win:
-        timeTaken = startTime - time.time()
+        timeTaken = time.time() - startTime
         print("[bold green]Congratulations, you win![/bold green]") 
         print(f"[bold green]You took {timeTaken} seconds.[/bold green] \n")
     else:

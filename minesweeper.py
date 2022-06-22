@@ -267,6 +267,4 @@ while playing:
     else: 
         print("Invalid mode.")
         continue
-    if board.numSpaces <= 0:
-        endGame(True)
         

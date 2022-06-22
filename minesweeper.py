@@ -261,9 +261,6 @@ while playing:
         board.digSpace(row, column, True)
     elif mode == "flag" or mode == "f":
         board.flagSpace(row, column)
-    # elif mode == "debug.show_board:
-    #     print(board.board)
-    #     continue
     else: 
         print("Invalid mode.")
         continue
